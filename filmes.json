@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titulo": "Interestelar",
+    "diretor": "Christopher Nolan",
+    "ano": 2014,
+    "genero": "ficção",
+    "nota": 9.2
+  },
+  {
+    "id": 2,
+    "titulo": "Parasita",
+    "diretor": "Bong Joon-ho",
+    "ano": 2019,
+    "genero": "drama",
+    "nota": 8.6
+  },
+  {
+    "id": 3,
+    "titulo": "Toy Story",
+    "diretor": "John Lasseter",
+    "ano": 1995,
+    "genero": "animação",
+    "nota": 8.3
+  },
+  {
+    "id": 4,
+    "titulo": "Matrix",
+    "diretor": "Wachowski",
+    "ano": 1999,
+    "genero": "ficção",
+    "nota": 8.7
+  },
+  {
+    "id": 5,
+    "titulo": "Divertida Mente",
+    "diretor": "Pete Docter",
+    "ano": 2015,
+    "genero": "animação",
+    "nota": 8.1
+  }
+]

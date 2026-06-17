@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Catálogo de Filmes</title><link rel="stylesheet" href="/css/styles.css"></head>
+<body>
+<header><div class="inner"><h1>🎬 Catálogo de Filmes</h1><span style="color:#889;font-size:.9rem">fetch API — Aula 37</span></div></header>
+<div class="container">
+  <div class="stats"><div class="stat"><div class="num" id="total">0</div><div class="rot">Filmes</div></div></div>
+  <div class="card"><h2>Adicionar Filme</h2>
+    <form id="form-filme" onsubmit="criarFilme(event)">
+      <div class="form-row">
+        <input type="text" id="inp-titulo" placeholder="Título" required>
+        <input type="text" id="inp-diretor" placeholder="Diretor" required>
+        <input type="number" id="inp-ano" placeholder="Ano" min="1900" max="2026" required>
+        <select id="inp-genero"><option value="ficção">Ficção</option><option value="drama">Drama</option><option value="animação">Animação</option><option value="ação">Ação</option><option value="comédia">Comédia</option></select>
+        <input type="number" id="inp-nota" placeholder="Nota" step="0.1" min="0" max="10" required>
+        <button type="submit" class="btn">Adicionar</button>
+      </div>
+    </form>
+  </div>
+  <div class="filtro"><label>Gênero:</label><select id="filtro-genero" onchange="filtrar()"><option value="todos">Todos</option><option value="ficção">Ficção</option><option value="drama">Drama</option><option value="animação">Animação</option><option value="ação">Ação</option><option value="comédia">Comédia</option></select></div>
+  <div id="loading">⏳ Carregando...</div>
+  <div id="lista" class="grid"></div>
+</div>
+<script src="/js/catalogo.js"></script>
+</body></html>
